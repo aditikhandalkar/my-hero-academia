@@ -1,0 +1,5 @@
+loop_len = raw_input()
+numbers = raw_input()
+numbers_list = map(int, numbers.split())
+set_of_numbers=set(numbers_list)
+print(len(set_of_numbers))
